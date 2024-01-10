@@ -1,1 +1,1 @@
-One piece sucks.
+*One piece sucks.*
