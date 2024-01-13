@@ -1,1 +1,1 @@
-[Lab Report 1.] (https://pratyush-bhattacharya.github.io/cse15l-lab-reports/LabReport1)
+[Lab Report 1.](https://pratyush-bhattacharya.github.io/cse15l-lab-reports/LabReport1)
