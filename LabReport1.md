@@ -14,7 +14,7 @@ The prompt remains unchanged in the above code. If the working directory is not 
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-In this case, the working directory was in the lecture1 folder. But `cd` with no arguments redirected it back to home. 
+In this case, the working directory was in the `lecture1` folder. But `cd` with no arguments redirected it back to home. 
 
 **2: With a directory as an argument**
 
