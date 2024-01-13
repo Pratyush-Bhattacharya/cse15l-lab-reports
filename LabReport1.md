@@ -38,4 +38,33 @@ bash: cd: Hello.java: Not a directory
 
 ## List (ls) Examples:
 1: Without arguments
+```
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$ cd lecture1/
+[user@sahara ~/lecture1]$ ls
+Hello.class  Hello.java  messages  README
+```
+From the above code, ls without arguments prints out or lists all available files and directories within the current working directory. Directories are printed in blue and bold.
 
+2: With a directory as an argument
+```
+[user@sahara ~/lecture1]$ ls messages/
+ar-eg.txt  en-us.txt  es-mx.txt  zh-cn.txt
+[user@sahara ~/lecture1]$ ls ..
+lecture1
+```
+The command lists all files contained within that absolute directory. 
+
+3. With a file as an argument
+```
+[user@sahara ~/lecture1]$ ls Hello.java 
+Hello.java
+[user@sahara ~/lecture1]$ ls messages/ar-eg.txt 
+messages/ar-eg.txt
+```
+This time, ls prints out the argument only.
+
+## Concatenate (cat) Examples:
+1: Without arguments
+```
