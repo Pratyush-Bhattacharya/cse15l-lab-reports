@@ -1,6 +1,6 @@
 # Lab Report 1
 
-## Change Directory (cd) Examples:
+## Change Directory `cd` Examples:
 **1: Without arguments**
 
 Without arguments, `cd` always reverts to the home directory regardless of the current working directory.
@@ -39,7 +39,7 @@ An error message will always print. You cannot change directories to a file.
 bash: cd: Hello.java: Not a directory
 ```
 
-## List ls Examples:
+## List `ls` Examples:
 **1: Without arguments**
 
 ```
@@ -71,7 +71,7 @@ messages/ar-eg.txt
 ```
 This time, `ls` prints out the argument only.
 
-## Concatenate (cat) Examples:
+## Concatenate `cat` Examples:
 **1: Without arguments**
 
 Without arguments, the terminal breaks down and doesn't know what to do.
