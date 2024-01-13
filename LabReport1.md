@@ -67,4 +67,30 @@ This time, ls prints out the argument only.
 
 ## Concatenate (cat) Examples:
 1: Without arguments
+Without arguments, the terminal breaks down and doesn't know what to do.cat
 ```
+[user@sahara ~]$ cat
+aaaa
+aaaa
+djfksf
+djfksf
+lecture1
+lecture1
+Hello.java
+Hello.java
+```
+Typing a single line duplicates into two. Using special characters breaks or changes the position of the cursor. The terminal is permanently unusable from now on and a new one needs to be created.
+
+2: With a directory as an argument
+```
+[user@sahara ~/lecture1]$ cat messages/
+cat: messages/: Is a directory
+```
+Cat with any valid directory as an argument prints an error-handling message.
+
+3: With a file as an argument
+```
+[user@sahara ~/lecture1]$ cat messages/ar-eg.txt 
+مرحبا بالعالم!
+```
+Cat with a file as an argument prints out the contents of that file.
