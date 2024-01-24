@@ -44,7 +44,7 @@ bash: cd: Hello.java: Not a directory
 
 ## List `ls` Examples:
 **1: Without arguments**
-When the working directory is the home directory. And when you `cd` into `lecture1` folder making the working directory in the `lecture1` folder.
+When the working directory is the home directory, and when you `cd` into `lecture1` folder making the working directory in the `lecture1` folder:
 ```
 [user@sahara ~]$ ls
 lecture1
