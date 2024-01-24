@@ -80,7 +80,7 @@ There is no error. This time, `ls` prints out the argument only.
 ## Concatenate `cat` Examples:
 **1: Without arguments**
 
-Without arguments, the terminal breaks down and doesn't know what to do.
+Without arguments, the terminal breaks down and doesn't know what to do. When the working directory is the home directory.
 ```
 [user@sahara ~]$ cat
 aaaa
@@ -92,7 +92,7 @@ lecture1
 Hello.java
 Hello.java
 ```
-Typing a single line duplicates into two. Using special characters breaks or changes the position of the cursor. The terminal is unusable until `<Ctrl> + C` is pressed.
+This is probably an error. However, there is no error-handling message. The terminal prints out whatever you input. Using special characters breaks or changes the position of the cursor. The terminal is unusable until `<Ctrl> + C` is pressed.
 
 **2: With a directory as an argument**
 
@@ -101,7 +101,7 @@ When the working directory is the `lecture` folder.
 [user@sahara ~/lecture1]$ cat messages/
 cat: messages/: Is a directory
 ```
-`cat` with any valid directory as an argument prints an error-handling message.
+This is an error. `cat` with any valid directory as an argument prints an error-handling message.
 
 **3: With a file as an argument**
 
