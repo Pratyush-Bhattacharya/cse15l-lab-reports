@@ -44,6 +44,7 @@ bash: cd: Hello.java: Not a directory
 
 ## List `ls` Examples:
 **1: Without arguments**
+
 When the working directory is the home directory, and when you `cd` into `lecture1` folder making the working directory in the `lecture1` folder:
 ```
 [user@sahara ~]$ ls
@@ -55,6 +56,7 @@ Hello.class  Hello.java  messages  README
 There is no error. From the above code, `ls` without arguments prints out or lists all available files and directories within the current working directory. Directories are printed in blue and bold.
 
 **2: With a directory as an argument**
+
 When the working directory is the `lecture1` folder.
 ```
 [user@sahara ~/lecture1]$ ls messages/
@@ -65,6 +67,7 @@ lecture1
 There is no error. The command lists all files contained within that absolute directory. 
 
 **3. With a file as an argument**
+
 When the working directory is the `lecture1` folder.
 ```
 [user@sahara ~/lecture1]$ ls Hello.java 
@@ -92,6 +95,7 @@ Hello.java
 Typing a single line duplicates into two. Using special characters breaks or changes the position of the cursor. The terminal is unusable until `<Ctrl> + C` is pressed.
 
 **2: With a directory as an argument**
+
 When the working directory is the `lecture` folder.
 ```
 [user@sahara ~/lecture1]$ cat messages/
@@ -100,6 +104,7 @@ cat: messages/: Is a directory
 `cat` with any valid directory as an argument prints an error-handling message.
 
 **3: With a file as an argument**
+
 When the working directory is the `lecture1` folder.
 ```
 [user@sahara ~/lecture1]$ cat messages/ar-eg.txt 
