@@ -35,11 +35,12 @@ The `cd` command can only change directories to directories within the same work
 **3: With a file as an argument**
 
 An error message will always print. You cannot change directories to a file.
+When the working directory is the `lecture1` folder.
 ```
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
-There is no error.
+
 
 ## List `ls` Examples:
 **1: Without arguments**
