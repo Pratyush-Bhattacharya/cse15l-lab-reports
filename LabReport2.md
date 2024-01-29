@@ -74,3 +74,9 @@ The same applies here. `handleRequest` is called and and field `str` still conta
 ## Logging into my account passwordless:
 
 ![Image](Screenshot2024-01-28164548.png)
+
+# Part 3:
+
+## What I've learnt:
+
+Almost everything this week was new to me. Everything from creating a new web server to logging into one. The `ssh` keyword is entirely new to me. The basics of URL's was the only thing I did know from before. Creating a private and public key to avoid password input was also new to me. Overall I'm very glad I learnt all of this. 
