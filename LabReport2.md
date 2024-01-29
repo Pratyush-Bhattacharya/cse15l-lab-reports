@@ -67,6 +67,10 @@ The same applies here. `handleRequest` is called and and field `str` still conta
 
 ![Image](Screenshot2024-01-28163556.png)
 
+## Aboslute path to the public key for my ssh key on my account on ieng6:
+
 ![Image](Screenshot2024-01-28164313.png)
+
+## Logging into my account passwordless:
 
 ![Image](Screenshot2024-01-28164548.png)
