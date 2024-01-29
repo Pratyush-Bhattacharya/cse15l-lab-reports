@@ -53,4 +53,4 @@ class ChatServer {
 
 ## Screenshots of adding messages:
 
-![Image](Screenshot 2024-01-28 155734.png)
+![Image](Screenshot2024-01-28155734.png)
