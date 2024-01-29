@@ -26,7 +26,7 @@ class Handler implements URLHandler {
                         }
                         return "No '&' symbol to separate s and user";
                     }
-                    return "No user definedS";
+                    return "No user defined";
 
                 }
                 return "No string defined";
