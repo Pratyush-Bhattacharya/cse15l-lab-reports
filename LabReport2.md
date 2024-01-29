@@ -24,12 +24,12 @@ class Handler implements URLHandler {
                             str += "\n" + parameters[2] + ": " + middleString[0];
                             return String.format(str);
                         }
-                        return "No & symbol to separate s and user";
+                        return "No '&' symbol to separate s and user";
                     }
-                    return "No user defined";
+                    return "No user definedS";
 
                 }
-                return "No String defined";
+                return "No string defined";
             }
             return "404 Not Found!";
         }
@@ -48,9 +48,15 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-
 ```
 
 ## Screenshots of adding messages:
 
 ![Image](Screenshot2024-01-28155734.png)
+
+The `handleRequest` method from the `Handler` class is called when the URL is input. There are many layers of arguments for the request. The first layer checks if `\add-message` is a valid argument. After that we check if an `s` is contained right after that. Then we check if `user` and `&` are located in the appropriate places. Any failure of these checks results in an error message being printed out. Only after all the arguments have been verified, the field `str` adds on to itself the `<user>: <s>`. And it prints. `str` is a `String` field created and initiated to an empty string value before the method `handleRequest` is called . No other fields or values like `url` is altered. 
+
+
+![Image](Screenshot2024-01-28161853.png)
+
+The same applies here. 
