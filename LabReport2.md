@@ -60,3 +60,13 @@ The `handleRequest` method from the `Handler` class is called when the URL is in
 ![Image](Screenshot2024-01-28161853.png)
 
 The same applies here. `handleRequest` is called and and field `str` still contains the previous value of `BobJefferson: Howareyou`. So it will remain there until the server gets taken down or restarts. Arguments for `\add-message` gets checked, then `s` and `user` and `&`. After all relevant checks are verified, field `str` adds a line break `\n` before adding the `<user>: <s>` part. No other fields or values like `url` is altered. 
+
+# Part 2:
+
+## Aboslute path to the private key for my ssh key on my PC:
+
+![Image](Screenshot2024-01-28163556.png)
+
+![Image](Screenshot2024-01-28164313.png)
+
+![Image](Screenshot2024-01-28164548.png)
