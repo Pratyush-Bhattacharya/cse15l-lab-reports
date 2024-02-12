@@ -54,22 +54,22 @@ class ChatServer {
 
 ![Image](Screenshot2024-01-28155734.png)
 
-The `handleRequest` method from the `Handler` class is called when the URL is input. There are many layers of arguments for the request. The first layer checks if `\add-message` is a valid argument. After that we check if an `s` is contained right after that. Then we check if `user` and `&` are located in the appropriate places. Any failure of these checks results in an error message being printed out. Only after all the arguments have been verified, the field `str` adds on to itself the `<user>: <s>`. And it prints. `str` is a `String` field created and initiated to an empty string value before the method `handleRequest` is called. No other fields or values like `url` is altered. 
+The `handleRequest` method from the `Handler` class is called when the URL is input. There are many layers of arguments for the request, but first `str` is initialized to an empty `string`. The first layer checks if `\add-message` is a valid argument. After that we check if an `s` is contained right after that. Then we check if `user` and `&` are located in the appropriate places. Any failure of these checks results in an error message being printed out. Only after all the arguments have been verified, the field `str` adds on to itself the `<user>: <s>`. And it prints. No other fields or values like `url` is altered, only `str` changes by adding onto itself the new proper message: `<user>: <s>`. 
 
 
 ![Image](Screenshot2024-01-28161853.png)
 
-The same applies here. `handleRequest` is called and and field `str` still contains the previous value of `BobJefferson: Howareyou`. So it will remain there until the server gets taken down or restarts. Arguments for `\add-message` gets checked, then `s` and `user` and `&`. After all relevant checks are verified, field `str` adds a line break `\n` before adding the `<user>: <s>` part. No other fields or values like `url` is altered. 
+The same applies here. `handleRequest` is called and and field `str` still contains the previous value of `BobJefferson: Howareyou`. So it will remain there until the server gets taken down or restarts. Arguments for `\add-message` gets checked, then `s` and `user` and `&`. `user` is assigned to the value of `Avril Gold` and `s` is assigned to the value `I am good`. After all relevant checks are verified, field `str` adds a line break `\n` before adding the `<user>: <s>` part. No other fields or values like `url` is altered. However in this case, field `str` now contains `BobJefferson: Howareyou\n Avril Gold: I am good`.
 
 # Part 2:
 
 ## Aboslute path to the private key for my ssh key on my PC:
 
-![Image](Screenshot2024-01-28163556.png)
+![Image](Screenshot2024-02-12143603.png)
 
 ## Aboslute path to the public key for my ssh key on my account on ieng6:
 
-![Image](Screenshot2024-01-28164313.png)
+![Image](Screenshot2024-02-12145321.png)
 
 ## Logging into my account passwordless:
 
