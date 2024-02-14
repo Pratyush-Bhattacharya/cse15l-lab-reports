@@ -68,7 +68,7 @@ Inputing `d` for `<type>` recursively finds and returns only directories, not fi
 
 ![image](Screenshot2024-02-13182154.png)
 
-There aren't as many files are there just directories, so there aren't many values returned. This is useful for checking how many folders there are and where they are located from a high level view. As the returned value is automatically sorted, it is easy to see where each folder is in case you forgot. Sources: (https://www.geeksforgeeks.org/afind-command-in-linux-with-examples/)
+There aren't as many files are there just directories, so there aren't many values returned. This is useful for checking how many folders there are and where they are located from a high level view. As the returned value is automatically sorted, it is easy to see where each folder is in case you forgot. Sources: (https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 ## `find <directory> -name <pattern>`
 
