@@ -4,4 +4,4 @@
 
 [Lab Report 2.](https://pratyush-bhattacharya.github.io/cse15l-lab-reports/LabReport2)
 
-[Lab Report 3.]()
+[Lab Report 3.](https://pratyush-bhattacharya.github.io/cse15l-lab-reports/LabReport3)
