@@ -52,12 +52,38 @@ This code fixes the error as the previous code switched adding to the `newArray`
 
 # Part 2
 
-We'll be looking at the `find` command here:
+We'll be looking at the `find` command here. `find` recursively searches the specified directory and returns all files and directories when no modifier is applied.
 
-## `find -type <type>` 
+## `find <directory> -type <type>` 
 
-Inputing `f` for `<type>` returns only files, not directories.
+Inputing `f` for `<type>` recursively finds and returns only files, not directories.
 
-```
+![image](Screenshot2024-02-13181443.png)
 
-```
+Since there are many files in `technical\`, many files are returned. This is a good way to gather the total number of files used in a program for many further arithmatic operations, or additional `find` or `grep` commands.
+
+---
+
+Inputing `d` for `<type>` recursively finds and returns only directories, not files.
+
+![image](Screenshot2024-02-13182154.png)
+
+There aren't as many files are there just directories, so there aren't many values returned. This is useful for checking how many folders there are and where they are located from a high level view. As the returned value is automatically sorted, it is easy to see where each folder is in case you forgot.
+
+## `find <directory> -name <pattern>`
+
+Inputing a pattern to search for in `<pattern>` recursively searches the input directory for any file or directory that matches the pattern.
+
+![image](Screenshot2024-02-13182731.png)
+
+Inputing a specified pattern to `<pattern>` only returns files that match that pattern exactly. In this case, the pattern was `chapter-1.txt`, so it only returns that. This is a good way to search for a known file or directory quickly.
+
+---
+
+However, inputting a `*` within the pattern, changes things:
+
+![image](Screenshot2024-02-13183658.png)
+
+In this case, `pattern` is `"chapter-*"`. `*` in programming generally means everything or all. Here, the file command is searching for all files or directories who's name begins with the pattern `"chapter-"`. This is a really good way for you to search for any file or directory if you remember only a part of the name, or to search for specific file extentions.
+
+## `find <directory> - <>`
