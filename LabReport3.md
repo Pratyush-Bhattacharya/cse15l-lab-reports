@@ -52,7 +52,7 @@ This code fixes the error as the previous code switched adding to the `newArray`
 
 # Part 2
 
-We'll be looking at the `find` command here. `find` recursively searches the specified directory and returns all files and directories when no modifier is applied.
+We'll be looking at the `find` command here. `find` recursively searches the specified directory and prints all files and directories when no modifier is applied.
 
 ## `find <directory> -type <type>` 
 
@@ -86,4 +86,20 @@ However, inputting a `*` within the pattern, changes things:
 
 In this case, `pattern` is `"chapter-*"`. `*` in programming generally means everything or all. Here, the file command is searching for all files or directories who's name begins with the pattern `"chapter-"`. This is a really good way for you to search for any file or directory if you remember only a part of the name, or to search for specific file extentions.
 
-## `find <directory> - <>`
+## `find <directory> -exec <command> {} \`
+
+`-exec` executes the specified command on each file. For example:
+
+![alt text](image.png)
+
+In this case the command was `head` which prints the first 10 lines of the file. So the command first finds the files matching the name `chapter-*`, which in this case is all the 9/11 reports. Then for each file that it finds, it executes the command head. This is useful to get a brief overview of all all the files in a directory or in a specified.
+
+---
+
+Here's an example with delete:
+
+![alt text](image-1.png)
+
+Here, `<command>` is `rm -i` asks for input in the form of case insensitive (y/n) for deletion. The find command simply finds which files to execute the command on once again. This is useful if you want to delete directories but want to know which files in specific to delete or not. 
+
+## `find <directory> -`
