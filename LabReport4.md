@@ -12,7 +12,7 @@ Keys pressed: `Ctrl + r>` + `cs` + `<enter>`. The same is done here to log into 
 
 ## Step 2: Cloning the git repository:
 
-![alt text](image-6.png)
+![alt text](image-18.png)
 
 Keys pressed: `git clone` + `Ctrl + V`. This works in the Windows terminal as it pasted the pre-copied Github URL: https://github.com/Pratyush-Bhattacharya/lab7. The `ls -a` command simply displays all directories and files within this directory including hidden directories. 
 
@@ -25,6 +25,8 @@ Keys pressed: `cd l` + `<tab><enter>`. `ls -a`. `bash t` + `<tab><enter>`. I fir
 ## Step 4: Fixing the error:
 
 The error was found in `testMerge2` in `ListExampleTests.java`. Something is wrong with the `merge` method in `ListExamples.java`. 
+
+![alt text](image-19.png)
 
 ![alt text](image-9.png)
 
@@ -56,7 +58,7 @@ Keys pressed: `<up><up><enter>`. `<up>` goes back through your command history. 
 
 ![alt text](image-16.png)
 
-Keys pressed: `git commit -a -m 'We did it gang!`. `git commit` commits the changes to add to Github. The `-a` adds all modified files to the commit automatically. And `-m <message>` submits a message to go along with the commit. Every commit must come with a message for logging purposes.
+Keys pressed: `git commit -a -m 'We did it gang!`. `git commit` commits the changes to add to Github. The `-a` stages all modified or deleted files to the commit automatically (it does not stage new files). And `-m <message>` submits a message to go along with the commit. Every commit must come with a message for logging purposes.
 
 ![alt text](image-17.png)
 
